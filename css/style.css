@@ -1,0 +1,193 @@
+
+body{
+  margin:10px;
+  font-family:'Raleway', sans-serif;
+  padding:0;
+  font-weight: bold;
+  background-color: #eedddd;
+}
+
+header{
+  font-size: 20px;
+  text-align: center;
+  background: url(../images/network.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 10px;
+}
+
+h2{
+	text-decoration: underline;
+}
+
+body, html {
+  height: 100%;
+}
+
+button{
+  background: #786c6b;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  padding:10px;
+  position: absolute;
+  top: 50px;
+  right: 66px;
+  font-size: 18px;
+}
+
+button:hover{
+  background:#f0dde4;
+  color: black;
+}
+
+.bg{
+  background-image: url("../resources/background.jpg");
+  min-height: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+section{
+  max-width: 900px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.sara{
+  float: left;
+  width:150px; 
+  height:100px;
+  margin-right:15px;
+}
+
+.skill-text{
+  padding-top: 200px;
+  padding-left: 170px;
+  opacity: 0.7;
+}
+
+.skill-bg{
+  background-image: url("../resources/skillBg.png");
+  background-color: #DCDCDC;
+  height: 100%;
+  background-position: 0%, 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skill-bg h2{
+	margin: 10px;
+}
+
+.education-bg{
+  background-image: url("../resources/educationBg.png");
+  /* Set a specific height */
+  min-height: 100%; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 2px 2px #FAFAFA;
+}
+
+.learning-text{
+	padding-top: 35px;
+}
+
+li{
+	padding: 15px 0px;
+}
+
+.learning-bg{
+  background-image: url("../resources/learningBg.png");
+  background-color: #DCDCDC;
+  height: 100%;
+  background-position: 90%, 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.experience-text{
+	padding-top: 30px;
+	padding-left:490px;
+	color: #FFF0F5;
+}
+
+.experience-bg{
+  background-image: url("../resources/experienceBg.png");
+  background-color: #DCDCDC;
+  height: 100%;
+  background-position: 20%, 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.volunteer-text{
+  padding-top: 180px;
+  padding-left: 470px;
+}
+
+.volunteer-bg{
+  background-image: url("../resources/volunteerBg.png");
+  background-color: #DCDCDC;
+  height: 100%;
+  background-position: 40%, 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-item{
+  padding: 10px;
+}
+.grid-item:nth-child(odd){
+  background-color:lightgrey;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.time{
+  color: #F08080;
+}
+
+@media screen and (min-width: 850px){
+  .grid-container{
+  display:grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 20px;
+  grid-gap: 8px;
+  grid-auto-rows: 40px;
+  margin: 20px;
+  justify-content: space-between;
+  background-color: #eee;
+}
+
+@media screen and (min-width: 720px){
+  .grid-container-edu{
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+  grid-gap: 5px;
+  grid-auto-rows: 4=50px;
+  margin: 10px;
+  justify-content: space-between;
+  background-color: #eee;
+  }
+}
+
